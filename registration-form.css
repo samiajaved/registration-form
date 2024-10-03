@@ -1,0 +1,88 @@
+form{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: 'Times New Roman';
+}
+
+h1{
+    font-size: auto;
+    padding: 0%;
+}
+
+#birthdaydate{padding-right: 155px;}
+
+#email{padding-right: 155px;}
+
+#company{padding-right: 185px;}
+
+label{
+    color: black;
+    font-style: bold;
+}
+
+.adress{
+    width: 510px;
+}
+.adress:focus{border-color:rgb(172, 26, 123); outline: none;}
+
+#date{
+    margin-right: 135px;
+}
+
+input{
+    border-color: black;
+    height: 20px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+input:hover{
+    border-color: rgb(172, 26, 123);
+    /* these shadows are'nt working */
+    box-shadow: 5px rgb(172, 26, 123);
+    box-shadow: 0 4px 8px color(srgb rgb(209, 195, 195) rgb(189, 200, 189) rgb(187, 187, 207));
+}
+
+.input{
+    width: 250px;
+}
+.input:focus{border-color:rgb(172, 26, 123); outline: none;}
+
+    
+.dropdownbutton{
+    border: 2px solid black;
+    height: 25px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.dropdownbutton:hover{
+    border-color:rgb(172, 26, 123) ;
+}
+.dropdownbutton:focus{border-color:rgb(172, 26, 123); outline: none;}
+
+textarea{
+    height: 100px;
+    width: 510px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+textarea:hover{
+    border-color:rgb(172, 26, 123);
+    border-radius: 5px;
+}
+textarea:focus{border-color:rgb(172, 26, 123); outline: none;}
+
+button{
+    width: 50%;
+    margin-left: 120px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color:rgb(172, 26, 123) ;
+    color: white;
+    border-color: rgb(56, 9, 44) ;
+}

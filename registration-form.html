@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet", href="registration-form.css">
+
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <p>Fill out this form carefully</p>
+        <br><hr>
+
+        <label>Student Name:</label><br><br>
+        <input placeholder="First name", type="text", class="input">
+        <input placeholder="Last name", type="text", class="input"><br><br>
+
+        <label id="birthdaydate">Birthday Date:</label>
+        <label >Gender:</label><br><br>
+        <input type="date", id="date" >
+       
+        <select class="dropdownbutton">
+                <option>male</option>
+                <option>female</option>
+        </select>
+     
+        <br><br>
+
+        <label>Street adress:</label><br>
+        <input type="text", name="adress", placeholder="adress", class="adress">
+        <br><br>
+        <input type="text", name="adress", placeholder="adress line 2", class="adress">        
+        <br><br>
+        <input type="text", name="provence", placeholder="provence", class="input">
+        <input type="text", name="city", placeholder="city", class="input" >  
+        <br><br>
+        <input type="text", name=" postalcode", placeholder="postal/zip code", class="input">
+        <br><br>
+
+        <label id="email">Student E-mail:</label>
+        <label> Mobile number:</label><br><br>
+        <input placeholder="exmyname@gmail.com", type="text", maxlength="30", class="input">
+        <input placeholder="03111122233", maxlength="11", class="input">
+        <br><br>
+
+
+        <label id="company">Company:</label>
+        <label>Courses:</label>
+        <br><br>
+        <input type="text", placeholder="company", class="input">
+        
+        <select class="dropdownbutton">
+            <option> AI</option>
+            <option>Blockchain</option>
+            <option>web development</option>
+            <option>software engineering</option>
+        </select>
+        <br><br>
+
+        <label>Additional comments</label>
+        <br><br>
+        <textarea name="comments" id="comments"></textarea>
+        <br><br>
+        <button> submit</button>
+
+
+    </form>
+    
+</body>
+</html>
